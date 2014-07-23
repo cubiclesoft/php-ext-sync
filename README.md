@@ -1,6 +1,27 @@
 CubicleSoft PHP Extension:  Synchronization Objects (sync)
 ==========================================================
 
+NOTE:  This repository has been moved to PECL.  You can find the PECL package here:
+
+http://pecl.php.net/package/sync
+
+The GIT repo here:
+
+http://git.php.net/?p=pecl/system/sync.git;a=summary
+
+The mirrored repo on GitHub is over here:
+
+https://github.com/php/pecl-system-sync
+
+And the documentation on the package is over here:
+
+http://us.php.net/manual/en/book.sync.php
+
+What follows is the original summary/basic documentation.  Please use the above links for the latest releases.
+
+Summary
+-------
+
 The 'sync' extension introduces synchonization objects into PHP.  Named and unnamed Mutex, Semaphore, Event, and Reader-Writer objects provide OS-level synchronization on both *NIX (POSIX semaphores required) and Windows platforms.  The extension comes with a test suite that integrates cleanly into 'make test'.
 
 This extension uses the liberal MIT open source license.  And, of course, it sits on GitHub for all of that pull request and issue tracker goodness to easily submit changes and ideas respectively.
